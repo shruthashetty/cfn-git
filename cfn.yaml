@@ -1,0 +1,8 @@
+Resources:
+  cfnBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      AccessControl: PublicRead
+      BucketName: cfnBucket
+
+
